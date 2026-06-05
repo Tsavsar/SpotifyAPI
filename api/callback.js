@@ -1,8 +1,8 @@
 // Add this to your GitHub repo as: api/callback.js
 // Then add https://spotify-api-lilac.vercel.app/api/callback to your Spotify redirect URIs
 
-const CLIENT_ID     = process.env.SPOTIFY_CLIENT_ID
-const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET
+const CLIENT_ID     = 'cd6d0850f7ed49868db3fe9eafe47380'
+const CLIENT_SECRET = '55dd99b526ee492191759b310602d1b6'
 const REDIRECT_URI  = 'https://spotify-api-lilac.vercel.app/api/callback'
 
 export default async function handler(req, res) {
