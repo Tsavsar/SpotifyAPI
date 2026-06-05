@@ -1,6 +1,6 @@
 const CLIENT_ID     = 'cd6d0850f7ed49868db3fe9eafe47380'
 const CLIENT_SECRET = '55dd99b526ee492191759b310602d1b6'
-const REFRESH_TOKEN = process.env.SPOTIFY_REFRESH_TOKEN
+const REFRESH_TOKEN = 'AQA72PKIIYIYm7ewLzmUDikypEAFondkyyityyEj9Lqr37CqBKpe4pKbtxxguZbhprGTXPThT2UpMedrIvWy08Ft6foLdz8M20A4VdFU5zoiC1e-2XpXW0amxEvx6YEr7WQ'
 
 async function getAccessToken() {
   const basic = Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString('base64')
