@@ -20,6 +20,7 @@ async function getAccessToken() {
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Cache-Control', 'no-store')
 
   const tokenData = await getAccessToken()
   if (!tokenData.access_token) {
